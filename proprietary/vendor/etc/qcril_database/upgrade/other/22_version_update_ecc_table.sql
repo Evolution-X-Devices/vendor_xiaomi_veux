@@ -1,19 +1,3 @@
-/*
-  Copyright (c) 2019 Qualcomm Technologies, Inc.
-  All Rights Reserved.
-  Confidential and Proprietary - Qualcomm Technologies, Inc.
-*/
-
-
-
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 22);
-
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '250';
-DELETE FROM qcril_emergency_source_hard_mcc_table where MCC = '250';
-
-INSERT INTO qcril_emergency_source_mcc_table VALUES('250','112','','');
-INSERT INTO qcril_emergency_source_mcc_table VALUES('250','911','','');
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('250','112','','');
-INSERT INTO qcril_emergency_source_hard_mcc_table VALUES('250','911','','');
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:64d8b1064a3bf242d04bd7f13eff90afb5568f5a2351d7a5204ac0f91418d813
+size 673

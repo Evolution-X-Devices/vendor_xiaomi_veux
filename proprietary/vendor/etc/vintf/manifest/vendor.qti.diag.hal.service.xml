@@ -1,17 +1,3 @@
-<!--
-  Copyright (c) 2020 Qualcomm Technologies, Inc.
-  All Rights Reserved.
-  Confidential and Proprietary - Qualcomm Technologies, Inc.
--->
-<manifest version="1.0" type="device">
-<!-- DIAG-HAL service-->
-    <hal format="hidl">
-        <name>vendor.qti.diaghal</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>Idiag</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e83f49d490b33fe0a47114f5b9fcf651f5b7844a1aa2ea6b26e47cda59fbd85c
+size 477

@@ -1,16 +1,3 @@
-
-# Copyright (c) 2020-2021 Qualcomm Technologies, Inc.
-# All Rights Reserved.
-# Confidential and Proprietary - Qualcomm Technologies, Inc.
-#
-
-on post-fs-data
-    mkdir /data/vendor/imslogs 0770 radio radio
-    chmod 0770 /data/vendor/imslogs
-
-# imsdaemon starts with root and UID will be downgraded to RADIO.
-service vendor.imsdaemon /vendor/bin/imsdaemon
-    class main
-    user radio
-    socket ims_datad stream 0660 system radio
-    group radio wifi inet vendor_qti_diag log
+version https://git-lfs.github.com/spec/v1
+oid sha256:4b9980537f142e1e780dff4f69c148a5e7e4ec21dd354e9bb090f5b7e0b7b2d0
+size 477

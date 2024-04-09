@@ -1,13 +1,3 @@
-#
-# Copyright (c) 2019 Qualcomm Technologies, Inc.
-# All Rights Reserved.
-# Confidential and Proprietary - Qualcomm Technologies, Inc.
-#
-
-# Create pddump directory
-on post-fs-data
-	mkdir /data/vendor/pddump 0770 oem_2903 oem_2903
-
-service vendor.tftp_server /vendor/bin/tftp_server
-   class core
-   user root
+version https://git-lfs.github.com/spec/v1
+oid sha256:34d02802ef8800322df81a85a69d806e37948eb27ad53ae4c709da561d60d024
+size 308

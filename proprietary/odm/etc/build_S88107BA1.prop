@@ -1,7 +1,3 @@
-
-ro.product.odm.brand=POCO
-ro.product.odm.name=peux_p_in
-ro.product.odm.device=peux
-ro.odm.build.fingerprint=POCO/peux_p_in/peux:13/TKQ1.221114.001/V14.0.4.0.TKCMIXM:user/release-keys
-ro.product.odm.model=2201116PI
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9e07387ff2bee82d87d575c100bd2d2a52230e35ade84382431bf61d90272de
+size 217

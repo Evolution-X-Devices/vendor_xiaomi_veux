@@ -1,10 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!---
-    Copyright (c) 2017 Qualcomm Technologies, Inc.
-    All Rights Reserved.
-    Confidential and Proprietary - Qualcomm Technologies, Inc.
- -->
-<permissions>
-    <library name="android.hidl.manager-V1.0-java"
-          file="/system/framework/android.hidl.manager-V1.0-java.jar"/>
-</permissions>
+version https://git-lfs.github.com/spec/v1
+oid sha256:78b94d836339b46d88b6aec68f49fa009dc4be3b9836d82b1417c1437e7169a0
+size 341

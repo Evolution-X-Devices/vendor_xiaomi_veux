@@ -1,2 +1,3 @@
-on property:ro.board.platform=msmnile && property:ro.baseband=msm && property:ro.vendor.qti.va_aosp.support=1
-  setprop ro.telephony.iwlan_operation_mode "legacy"
+version https://git-lfs.github.com/spec/v1
+oid sha256:40fc443c13c92730e824cc31af24996431dadcf479e1fa157bf96c03430e1d86
+size 163

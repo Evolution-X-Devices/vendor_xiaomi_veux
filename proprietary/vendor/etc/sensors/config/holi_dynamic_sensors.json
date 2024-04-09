@@ -1,18 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["QRD","MTP", "RCM", "Surf"],
-    "soc_id": ["454"]
-  },
-
-  "sns_dynamic_sensors":
-  {
-    "owner":"sns_dynamic_sensors",
-
-    "sns_register_lsm6dst":
-    {
-      "type" : "str",
-      "ver" : "0",
-      "data" : "lsm6dst_normal.so"
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84409b217712d8f6359535de630895866c7787a3f157702c6224705bb0b2e2be
+size 279

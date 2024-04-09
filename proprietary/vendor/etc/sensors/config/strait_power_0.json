@@ -1,15 +1,3 @@
-{
-  "config":{
-    "hw_platform": ["MTP", "RCM", "Surf"],
-    "soc_id": ["507"]
- },
- "power":{
-    "owner": "power_manager",
-    ".island":{
-      "owner": "power_manager",
-      "enable_island":{ "type": "int", "ver": "0",
-        "data": "1"
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:099809af94e21fdbaeb00383c8ab9622d3e10f1d5653a6044322c3e402850581
+size 264

@@ -1,13 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Copyright (c) 2015-2016, 2020 Qualcomm Technologies, Inc.
-    All Rights Reserved.
-    Confidential and Proprietary - Qualcomm Technologies, Inc.-->
-<permissions>
-    <library name="com.qti.dpmframework"
-        file="/system/system_ext/framework/com.qti.dpmframework.jar"/>
-    <library name="android.hidl.manager-V1.0-java"
-        file="/system/framework/android.hidl.manager-V1.0-java.jar"/>
-    <permission name="com.qualcomm.permission.READPROC" >
-    <group gid="readproc" />
-    </permission>
-</permissions>
+version https://git-lfs.github.com/spec/v1
+oid sha256:f0f06e0ffbe31064be2639ca338f0f944df96835e934ba60778a62d6ef9142c9
+size 559

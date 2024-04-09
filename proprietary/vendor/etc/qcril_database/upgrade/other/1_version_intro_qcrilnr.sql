@@ -1,14 +1,3 @@
-/*
-  Copyright (c) 2016 Qualcomm Technologies, Inc.
-  All Rights Reserved.
-  Confidential and Proprietary - Qualcomm Technologies, Inc.
-*/
-
-CREATE TABLE IF NOT EXISTS qcril_properties_table (property TEXT,value TEXT, PRIMARY KEY(property));
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 1);
-
-DELETE FROM qcril_emergency_source_mcc_table where MCC = '234' AND NUMBER = '999';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('234','999','','');
-
-DELETE FROM qcril_emergency_source_mcc_table WHERE MCC = '505' AND NUMBER = '000';
-INSERT INTO qcril_emergency_source_mcc_table VALUES('505', '000', '','');
+version https://git-lfs.github.com/spec/v1
+oid sha256:89b42be5b8bd4d7c23bb714cc57b2039a41c222ebecb54667254c075d741dd18
+size 650

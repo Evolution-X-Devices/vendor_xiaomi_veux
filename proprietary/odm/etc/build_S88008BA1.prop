@@ -1,7 +1,3 @@
-
-ro.product.odm.brand=Redmi
-ro.product.odm.name=veux_jp
-ro.product.odm.device=veux
-ro.odm.build.fingerprint=Redmi/veux_jp/veux:13/TKQ1.221114.001/V14.0.4.0.TKCMIXM:user/release-keys
-ro.product.odm.model=2201116SR
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:486cdb623e649003d5ef46d5751d6c0898cc44aea21d9ffe8083c84d52b17567
+size 215

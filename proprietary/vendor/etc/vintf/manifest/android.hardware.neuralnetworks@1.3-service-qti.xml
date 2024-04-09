@@ -1,14 +1,3 @@
-<!--
-Copyright (c) 2020 Qualcomm Technologies, Inc.
-All Rights Reserved.
-Confidential and Proprietary - Qualcomm Technologies, Inc.
--->
-<manifest version="1.0" type="device">
-    <hal format="hidl">
-        <name>android.hardware.neuralnetworks</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.3::IDevice/qti-default</fqname>
-        <fqname>@1.3::IDevice/qti-dsp</fqname>
-        <fqname>@1.3::IDevice/qti-gpu</fqname>
-    </hal>
-</manifest>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fe231b6b3fd8ec56d0d4063ec9e547be4248da930b9c471212ff9cc9f4afc99
+size 460

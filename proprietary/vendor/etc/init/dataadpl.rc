@@ -1,13 +1,3 @@
-# Copyright (c) 2019 Qualcomm Technologies, Inc.
-# All Rights Reserved.
-# Confidential and Proprietary - Qualcomm Technologies, Inc.
-
-# Create the directories used by DPM subsystem
-
-#start dataadpl service
-service vendor.dataadpl /system/vendor/bin/adpl
-    class main
-    user radio
-    socket adpl_cmd_uds_file dgram 660 radio radio
-    group radio oem_2901 diag usb inet
-    disabled
+version https://git-lfs.github.com/spec/v1
+oid sha256:8fb07a4eb3f8222e9266deada743d05f40633a6f8a9b06d0577e3af632210443
+size 386

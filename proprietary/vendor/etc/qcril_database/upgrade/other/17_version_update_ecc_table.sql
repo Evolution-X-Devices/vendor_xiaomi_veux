@@ -1,10 +1,3 @@
-/*
-  Copyright (c) 2019 Qualcomm Technologies, Inc.
-  All Rights Reserved.
-  Confidential and Proprietary - Qualcomm Technologies, Inc.
-*/
-
-
-
-INSERT OR REPLACE INTO qcril_properties_table (property, value) VALUES ('qcrildb_version', 17);
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed7a33d78e33a07cf4df4b2f867e4205ee9c31b46dd1597fbafef2d852dfa30a
+size 239

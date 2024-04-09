@@ -1,9 +1,3 @@
-/*
-  Copyright (c) 2021 Qualcomm Technologies, Inc.
-  All Rights Reserved.
-  Confidential and Proprietary - Qualcomm Technologies, Inc.
-*/
-
-CREATE TABLE IF NOT EXISTS qcril_properties_table (property TEXT PRIMARY KEY NOT NULL, def_val TEXT, value TEXT);
-INSERT OR REPLACE INTO qcril_properties_table(property, def_val) VALUES('qcrildb_version',8.0);
-UPDATE qcril_properties_table SET def_val="1" WHERE property="persist.vendor.radio.cs_srv_type";
+version https://git-lfs.github.com/spec/v1
+oid sha256:422618e5c09ec3f64aa92056039d32bcd010cbe65a93799a3c98b6ebcdd4fadf
+size 447
