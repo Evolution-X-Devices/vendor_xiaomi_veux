@@ -12445,7 +12445,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libbinder",
                 "libdrm",
-                "libtinyxml2_1",
+                "libtinyxml2-v34",
                 "libhidlbase",
                 "android.frameworks.sensorservice@1.0",
                 "libc++",
@@ -21417,9 +21417,9 @@ android_app_import {
 }
 
 android_app_import {
-    name: "EuiccGoogle",
+    name: "EuiccGoogleVeux",
     owner: "xiaomi",
-    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogle.apk",
+    apk: "proprietary/product/priv-app/EuiccGoogle/EuiccGoogleVeux.apk",
     certificate: "platform",
     dex_preopt: {
         enabled: false,

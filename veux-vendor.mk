@@ -1039,7 +1039,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     MobileFeliCaClient \
     PowerOffAlarm \
-    EuiccGoogle \
+    EuiccGoogleVeux \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     QtiTelephonyService \
